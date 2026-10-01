@@ -1,9 +1,16 @@
+import os
+import httpx
 import xml.etree.ElementTree as ET
 
 from backend.app.schemas import DocumentInput
 from sqlalchemy import select
 from sqlalchemy.orm import Session
 from backend.app.models import Document
+
+XML_SOURCE_URL = os.getenv(
+    "XML_SOURCE_URL",
+    "http://127.0.0.1:8000/source/documents.xml",
+)
 
 IMPORTANCE_VALUES = {
     "zems": "low",
@@ -100,3 +107,10 @@ def import_documents(xml_text: str, db: Session) -> dict:
         "updated": updated,
         "total": len(documents),
     }
+
+
+def import_from_source(db: Session) -> dict:
+    response = httpx.get(XML_SOURCE_URL, timeout=10.0)
+    response.raise_for_status()
+
+    return import_documents(response.text, db)

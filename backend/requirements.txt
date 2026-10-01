@@ -3,3 +3,4 @@ pydantic>=2,<3
 sqlalchemy>=2,<3
 fastapi
 uvicorn
+httpx
