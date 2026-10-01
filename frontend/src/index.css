@@ -55,3 +55,40 @@ a {
 .error {
   color: #a32121;
 }
+
+.search-field {
+  grid-column: 1 / -1;
+  margin-bottom: 8px;
+}
+
+.filters {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 16px;
+  margin: 24px 0 16px;
+}
+
+.filters label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+
+.filters input,
+.filters select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #bac4ce;
+  border-radius: 4px;
+  background: white;
+  font: inherit;
+}
+
+button {
+  padding: 10px 14px;
+  border: 1px solid #bac4ce;
+  border-radius: 4px;
+  background: white;
+  font: inherit;
+  cursor: pointer;
+}
