@@ -1,0 +1,16 @@
+# Python environment and generated files
+.venv/
+__pycache__/
+.pytest_cache/
+
+# Frontend dependencies and build output
+node_modules/
+dist/
+
+# Local configuration and database files
+.env
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.sqlite3-*
