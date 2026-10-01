@@ -111,10 +111,11 @@ not included or downloaded.
 
 ## API endpoints
 
-| Method | Path                    |Purpose                                 |
-| GET    | `/source/documents.xml` | Serve the sample XML source            |
-| POST   | `/api/import`           | Fetch, validate, and store XML records |
-| GET    | `/api/documents`        | Return stored document metadata        |
+| Method | Path | Purpose |
+| --- | --- | --- |
+| GET | `/source/documents.xml` | Serve the sample XML source |
+| POST | `/api/import` | Fetch, validate, and store XML records |
+| GET | `/api/documents` | Return stored document metadata      |
 
 The import endpoint returns HTTP 502 if downloading the source fails
 and HTTP 422 if the XML or document data is invalid.
