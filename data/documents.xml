@@ -1,0 +1,303 @@
+<?xml version='1.0' encoding='utf-8'?>
+<documents>
+    <document id="doc-001">
+        <name>Informācijas drošības politika 1</name>
+        <description>Dokuments nosaka darba organizācijas principus un atbildību.</description>
+        <responsibleUnit>Finanšu nodaļa</responsibleUnit>
+        <createdAt>2026-05-13</createdAt>
+        <url>https://example.com/documents/doc-001.pdf</url>
+        <fileType>pdf</fileType>
+        <readingTimeMinutes>10</readingTimeMinutes>
+        <importance>zems</importance>
+        <category>publisks</category>
+        <active>nē</active>
+    </document>
+    <document id="doc-002">
+        <name>Informācijas drošības politika 2</name>
+        <description>Dokuments nosaka darba organizācijas principus un atbildību.</description>
+        <responsibleUnit>Finanšu nodaļa</responsibleUnit>
+        <createdAt>2026-08-14</createdAt>
+        <url>https://example.com/documents/doc-002.pdf</url>
+        <fileType>pdf</fileType>
+        <readingTimeMinutes>34</readingTimeMinutes>
+        <importance>zems</importance>
+        <category>iekšējs</category>
+        <active>nē</active>
+    </document>
+    <document id="doc-003">
+        <name>Darbinieku rokasgrāmata 3</name>
+        <description>Dokumentā apkopotas prasības un ieteikumi ikdienas darbam.</description>
+        <responsibleUnit>IT nodaļa</responsibleUnit>
+        <createdAt>2025-12-03</createdAt>
+        <url>https://example.com/documents/doc-003.docx</url>
+        <fileType>docx</fileType>
+        <readingTimeMinutes>12</readingTimeMinutes>
+        <importance>kritisks</importance>
+        <category>ierobežotas pieejamības</category>
+        <active>nē</active>
+    </document>
+    <document id="doc-004">
+        <name>Darbinieku rokasgrāmata 4</name>
+        <description>Dokuments nosaka darba organizācijas principus un atbildību.</description>
+        <responsibleUnit>IT nodaļa</responsibleUnit>
+        <createdAt>2026-04-11</createdAt>
+        <url>https://example.com/documents/doc-004.pdf</url>
+        <fileType>pdf</fileType>
+        <readingTimeMinutes>26</readingTimeMinutes>
+        <importance>zems</importance>
+        <category>ierobežotas pieejamības</category>
+        <active>nē</active>
+    </document>
+    <document id="doc-005">
+        <name>Klientu apkalpošanas kārtība 5</name>
+        <description>Dokuments apraksta procedūras un to piemērošanas kārtību.</description>
+        <responsibleUnit>Juridiskā nodaļa</responsibleUnit>
+        <createdAt>2026-09-08</createdAt>
+        <url>https://example.com/documents/doc-005.docx</url>
+        <fileType>docx</fileType>
+        <readingTimeMinutes>36</readingTimeMinutes>
+        <importance>zems</importance>
+        <category>konfidenciāls</category>
+        <active>jā</active>
+    </document>
+    <document id="doc-006">
+        <name>Klientu apkalpošanas kārtība 6</name>
+        <description>Dokuments apraksta procedūras un to piemērošanas kārtību.</description>
+        <responsibleUnit>Personāla nodaļa</responsibleUnit>
+        <createdAt>2025-11-13</createdAt>
+        <url>https://example.com/documents/doc-006.docx</url>
+        <fileType>docx</fileType>
+        <readingTimeMinutes>38</readingTimeMinutes>
+        <importance>vidējs</importance>
+        <category>publisks</category>
+        <active>jā</active>
+    </document>
+    <document id="doc-007">
+        <name>Darbinieku rokasgrāmata 7</name>
+        <description>Dokuments nosaka darba organizācijas principus un atbildību.</description>
+        <responsibleUnit>IT nodaļa</responsibleUnit>
+        <createdAt>2026-08-21</createdAt>
+        <url>https://example.com/documents/doc-007.docx</url>
+        <fileType>docx</fileType>
+        <readingTimeMinutes>26</readingTimeMinutes>
+        <importance>augsts</importance>
+        <category>konfidenciāls</category>
+        <active>nē</active>
+    </document>
+    <document id="doc-008">
+        <name>Darbinieku rokasgrāmata 8</name>
+        <description>Dokuments nosaka darba organizācijas principus un atbildību.</description>
+        <responsibleUnit>Personāla nodaļa</responsibleUnit>
+        <createdAt>2026-04-02</createdAt>
+        <url>https://example.com/documents/doc-008.docx</url>
+        <fileType>docx</fileType>
+        <readingTimeMinutes>45</readingTimeMinutes>
+        <importance>zems</importance>
+        <category>iekšējs</category>
+        <active>jā</active>
+    </document>
+    <document id="doc-009">
+        <name>Darbinieku rokasgrāmata 9</name>
+        <description>Dokumentā apkopotas prasības un ieteikumi ikdienas darbam.</description>
+        <responsibleUnit>Klientu apkalpošanas nodaļa</responsibleUnit>
+        <createdAt>2026-03-20</createdAt>
+        <url>https://example.com/documents/doc-009.docx</url>
+        <fileType>docx</fileType>
+        <readingTimeMinutes>16</readingTimeMinutes>
+        <importance>augsts</importance>
+        <category>publisks</category>
+        <active>jā</active>
+    </document>
+    <document id="doc-010">
+        <name>Informācijas drošības politika 10</name>
+        <description>Dokumentā apkopotas prasības un ieteikumi ikdienas darbam.</description>
+        <responsibleUnit>IT nodaļa</responsibleUnit>
+        <createdAt>2026-03-09</createdAt>
+        <url>https://example.com/documents/doc-010.docx</url>
+        <fileType>docx</fileType>
+        <readingTimeMinutes>15</readingTimeMinutes>
+        <importance>augsts</importance>
+        <category>iekšējs</category>
+        <active>nē</active>
+    </document>
+    <document id="doc-011">
+        <name>Risku pārvaldības vadlīnijas 11</name>
+        <description>Dokuments nosaka darba organizācijas principus un atbildību.</description>
+        <responsibleUnit>Personāla nodaļa</responsibleUnit>
+        <createdAt>2026-02-08</createdAt>
+        <url>https://example.com/documents/doc-011.xlsx</url>
+        <fileType>xlsx</fileType>
+        <readingTimeMinutes>10</readingTimeMinutes>
+        <importance>vidējs</importance>
+        <category>ierobežotas pieejamības</category>
+        <active>nē</active>
+    </document>
+    <document id="doc-012">
+        <name>Klientu apkalpošanas kārtība 12</name>
+        <description>Dokuments nosaka darba organizācijas principus un atbildību.</description>
+        <responsibleUnit>Finanšu nodaļa</responsibleUnit>
+        <createdAt>2026-03-29</createdAt>
+        <url>https://example.com/documents/doc-012.docx</url>
+        <fileType>docx</fileType>
+        <readingTimeMinutes>34</readingTimeMinutes>
+        <importance>kritisks</importance>
+        <category>publisks</category>
+        <active>jā</active>
+    </document>
+    <document id="doc-013">
+        <name>Informācijas drošības politika 13</name>
+        <description>Dokuments nosaka darba organizācijas principus un atbildību.</description>
+        <responsibleUnit>Juridiskā nodaļa</responsibleUnit>
+        <createdAt>2025-11-13</createdAt>
+        <url>https://example.com/documents/doc-013.pdf</url>
+        <fileType>pdf</fileType>
+        <readingTimeMinutes>40</readingTimeMinutes>
+        <importance>zems</importance>
+        <category>konfidenciāls</category>
+        <active>nē</active>
+    </document>
+    <document id="doc-014">
+        <name>Klientu apkalpošanas kārtība 14</name>
+        <description>Dokumentā apkopotas prasības un ieteikumi ikdienas darbam.</description>
+        <responsibleUnit>Klientu apkalpošanas nodaļa</responsibleUnit>
+        <createdAt>2026-01-03</createdAt>
+        <url>https://example.com/documents/doc-014.docx</url>
+        <fileType>docx</fileType>
+        <readingTimeMinutes>2</readingTimeMinutes>
+        <importance>zems</importance>
+        <category>ierobežotas pieejamības</category>
+        <active>nē</active>
+    </document>
+    <document id="doc-015">
+        <name>Informācijas drošības politika 15</name>
+        <description>Dokuments nosaka darba organizācijas principus un atbildību.</description>
+        <responsibleUnit>Juridiskā nodaļa</responsibleUnit>
+        <createdAt>2026-02-20</createdAt>
+        <url>https://example.com/documents/doc-015.docx</url>
+        <fileType>docx</fileType>
+        <readingTimeMinutes>2</readingTimeMinutes>
+        <importance>augsts</importance>
+        <category>iekšējs</category>
+        <active>jā</active>
+    </document>
+    <document id="doc-016">
+        <name>Gada pārskats 16</name>
+        <description>Dokuments apraksta procedūras un to piemērošanas kārtību.</description>
+        <responsibleUnit>Finanšu nodaļa</responsibleUnit>
+        <createdAt>2026-01-14</createdAt>
+        <url>https://example.com/documents/doc-016.xlsx</url>
+        <fileType>xlsx</fileType>
+        <readingTimeMinutes>11</readingTimeMinutes>
+        <importance>augsts</importance>
+        <category>iekšējs</category>
+        <active>jā</active>
+    </document>
+    <document id="doc-017">
+        <name>Klientu apkalpošanas kārtība 17</name>
+        <description>Dokuments nosaka darba organizācijas principus un atbildību.</description>
+        <responsibleUnit>IT nodaļa</responsibleUnit>
+        <createdAt>2026-01-23</createdAt>
+        <url>https://example.com/documents/doc-017.docx</url>
+        <fileType>docx</fileType>
+        <readingTimeMinutes>25</readingTimeMinutes>
+        <importance>augsts</importance>
+        <category>iekšējs</category>
+        <active>jā</active>
+    </document>
+    <document id="doc-018">
+        <name>Darbinieku rokasgrāmata 18</name>
+        <description>Dokuments nosaka darba organizācijas principus un atbildību.</description>
+        <responsibleUnit>Juridiskā nodaļa</responsibleUnit>
+        <createdAt>2026-08-21</createdAt>
+        <url>https://example.com/documents/doc-018.xlsx</url>
+        <fileType>xlsx</fileType>
+        <readingTimeMinutes>6</readingTimeMinutes>
+        <importance>vidējs</importance>
+        <category>iekšējs</category>
+        <active>nē</active>
+    </document>
+    <document id="doc-019">
+        <name>Klientu apkalpošanas kārtība 19</name>
+        <description>Dokuments apraksta procedūras un to piemērošanas kārtību.</description>
+        <responsibleUnit>Klientu apkalpošanas nodaļa</responsibleUnit>
+        <createdAt>2026-05-18</createdAt>
+        <url>https://example.com/documents/doc-019.pdf</url>
+        <fileType>pdf</fileType>
+        <readingTimeMinutes>29</readingTimeMinutes>
+        <importance>vidējs</importance>
+        <category>iekšējs</category>
+        <active>nē</active>
+    </document>
+    <document id="doc-020">
+        <name>Risku pārvaldības vadlīnijas 20</name>
+        <description>Dokumentā apkopotas prasības un ieteikumi ikdienas darbam.</description>
+        <responsibleUnit>Juridiskā nodaļa</responsibleUnit>
+        <createdAt>2025-11-02</createdAt>
+        <url>https://example.com/documents/doc-020.xlsx</url>
+        <fileType>xlsx</fileType>
+        <readingTimeMinutes>35</readingTimeMinutes>
+        <importance>kritisks</importance>
+        <category>publisks</category>
+        <active>jā</active>
+    </document>
+    <document id="doc-021">
+        <name>Darbinieku rokasgrāmata 21</name>
+        <description>Dokuments nosaka darba organizācijas principus un atbildību.</description>
+        <responsibleUnit>Klientu apkalpošanas nodaļa</responsibleUnit>
+        <createdAt>2026-04-10</createdAt>
+        <url>https://example.com/documents/doc-021.pdf</url>
+        <fileType>pdf</fileType>
+        <readingTimeMinutes>37</readingTimeMinutes>
+        <importance>vidējs</importance>
+        <category>iekšējs</category>
+        <active>jā</active>
+    </document>
+    <document id="doc-022">
+        <name>Informācijas drošības politika 22</name>
+        <description>Dokuments nosaka darba organizācijas principus un atbildību.</description>
+        <responsibleUnit>Finanšu nodaļa</responsibleUnit>
+        <createdAt>2025-11-11</createdAt>
+        <url>https://example.com/documents/doc-022.xlsx</url>
+        <fileType>xlsx</fileType>
+        <readingTimeMinutes>6</readingTimeMinutes>
+        <importance>zems</importance>
+        <category>ierobežotas pieejamības</category>
+        <active>jā</active>
+    </document>
+    <document id="doc-023">
+        <name>Klientu apkalpošanas kārtība 23</name>
+        <description>Dokuments apraksta procedūras un to piemērošanas kārtību.</description>
+        <responsibleUnit>Juridiskā nodaļa</responsibleUnit>
+        <createdAt>2026-05-11</createdAt>
+        <url>https://example.com/documents/doc-023.pdf</url>
+        <fileType>pdf</fileType>
+        <readingTimeMinutes>15</readingTimeMinutes>
+        <importance>vidējs</importance>
+        <category>konfidenciāls</category>
+        <active>jā</active>
+    </document>
+    <document id="doc-024">
+        <name>Risku pārvaldības vadlīnijas 24</name>
+        <description>Dokuments nosaka darba organizācijas principus un atbildību.</description>
+        <responsibleUnit>IT nodaļa</responsibleUnit>
+        <createdAt>2026-06-25</createdAt>
+        <url>https://example.com/documents/doc-024.docx</url>
+        <fileType>docx</fileType>
+        <readingTimeMinutes>44</readingTimeMinutes>
+        <importance>kritisks</importance>
+        <category>ierobežotas pieejamības</category>
+        <active>nē</active>
+    </document>
+    <document id="doc-025">
+        <name>Risku pārvaldības vadlīnijas 25</name>
+        <description>Dokuments apraksta procedūras un to piemērošanas kārtību.</description>
+        <responsibleUnit>IT nodaļa</responsibleUnit>
+        <createdAt>2026-09-03</createdAt>
+        <url>https://example.com/documents/doc-025.docx</url>
+        <fileType>docx</fileType>
+        <readingTimeMinutes>5</readingTimeMinutes>
+        <importance>kritisks</importance>
+        <category>ierobežotas pieejamības</category>
+        <active>jā</active>
+    </document>
+</documents>
