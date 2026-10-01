@@ -1,6 +1,9 @@
 import xml.etree.ElementTree as ET
 
 from backend.app.schemas import DocumentInput
+from sqlalchemy import select
+from sqlalchemy.orm import Session
+from backend.app.models import Document
 
 IMPORTANCE_VALUES = {
     "zems": "low",
@@ -60,3 +63,40 @@ def parse_documents(xml_text: str) -> list[DocumentInput]:
         documents.append(document)
 
     return documents
+
+
+def import_documents(xml_text: str, db: Session) -> dict:
+    documents = parse_documents(xml_text)
+
+    created = 0
+    updated = 0
+
+    try:
+        for document in documents:
+            existing = db.scalar(
+                select(Document).where(Document.external_id == document.external_id)
+            )
+
+            values = document.model_dump()
+            values["url"] = str(document.url)
+
+            if existing is None:
+                db.add(Document(**values))
+                created += 1
+            else:
+                for field, value in values.items():
+                    setattr(existing, field, value)
+
+                updated += 1
+
+        db.commit()
+
+    except Exception:
+        db.rollback()
+        raise
+
+    return {
+        "created": created,
+        "updated": updated,
+        "total": len(documents),
+    }
