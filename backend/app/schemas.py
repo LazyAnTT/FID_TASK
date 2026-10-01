@@ -1,4 +1,4 @@
-from datetime import date
+from datetime import date, datetime
 from typing import Literal
 
 from pydantic import BaseModel, ConfigDict, Field, HttpUrl
@@ -27,3 +27,10 @@ class DocumentInput(BaseModel):
     importance: Importance
     category: Category
     active: bool = Field(strict=True)
+
+
+class DocumentResponse(DocumentInput):
+    model_config = ConfigDict(from_attributes=True)
+
+    id: int
+    imported_at: datetime
